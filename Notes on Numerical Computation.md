@@ -5,7 +5,7 @@
 **Poor Conditioning**
 Condition Number - ratio of the magintude of the largest and smallest eigenvalue.
 
-##**Gradient-Based Optimization**
+**Gradient-Based Optimization**
 
 **Objective function or criterion**
 1) minimize f(x) --> cost/loss/error function.
@@ -17,5 +17,6 @@ Condition Number - ratio of the magintude of the largest and smallest eigenvalue
 7) global minimum: absolute lowest value of f(x).
 --------------------------------------------------------
 8) gradient descent: positive gradient points uphill, negative gradient points downhill and f can be decreased by moving in the direction of negative gradient.
-
-x' = x - \epsiopnD<sub>x</sub>f(x)
+<p align="center">
+**x' = x - \epsilon D<sub>x</sub>f(x)**
+</p>
