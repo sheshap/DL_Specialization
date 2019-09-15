@@ -18,5 +18,5 @@ Condition Number - ratio of the magintude of the largest and smallest eigenvalue
 --------------------------------------------------------
 8) gradient descent: positive gradient points uphill, negative gradient points downhill and f can be decreased by moving in the direction of negative gradient.
 <p align="center">
-x' = x - _&epsilon_ D<sub>x</sub>f(x)
+x' = x - _&epsilon;_ D<sub>x</sub>f(x)
 </p>
