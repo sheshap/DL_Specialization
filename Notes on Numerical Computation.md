@@ -2,5 +2,16 @@
 1) Underflow - occurs when numbers close to zero are rounded off as zero.
 2) Overflow - occurs when numbers with large magnitude are approximated as -&infin; or &infin;.
 
-** Poor Conditioning **
+**Poor Conditioning**
 Condition Number - ratio of the magintude of the largest and smallest eigenvalue.
+
+**Gradient-Based Optimization**
+
+**Objective function or criterion**
+1) minimize f(x) --> cost/loss/error function.
+2) gradient descent: reduce f(x) by moving x in small steps with the opposite sign of the derivative.
+3) critical points/stationary points: provide no information about direction of gradient (f'(x) = 0).
+4) local minimum: f(x) lower than all it's neighboring points, no longer possible to decrease f(x) by taking infinitesimal steps.
+5) local maximum: f(x) higher than all it's neighboring points, no longer possible to increase f(x) by taking infinitesimal steps.
+6) saddle points: critical points which are neither minima or maxima.
+7) global minimum: absolute lowest value of f(x).
