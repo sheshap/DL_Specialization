@@ -5,13 +5,17 @@
 **Poor Conditioning**
 Condition Number - ratio of the magintude of the largest and smallest eigenvalue.
 
-**Gradient-Based Optimization**
+##**Gradient-Based Optimization**
 
 **Objective function or criterion**
 1) minimize f(x) --> cost/loss/error function.
 2) gradient descent: reduce f(x) by moving x in small steps with the opposite sign of the derivative.
 3) critical points/stationary points: provide no information about direction of gradient (f'(x) = 0).
-4) local minimum: f(x) lower than all it's neighboring points, no longer possible to decrease f(x) by taking infinitesimal steps.
-5) local maximum: f(x) higher than all it's neighboring points, no longer possible to increase f(x) by taking infinitesimal steps.
+4) local minimum: f(x) lower than all neighboring points, no longer possible to decrease f(x) by taking infinitesimal steps.
+5) local maximum: f(x) higher than all neighboring points, no longer possible to increase f(x) by taking infinitesimal steps.
 6) saddle points: critical points which are neither minima or maxima.
 7) global minimum: absolute lowest value of f(x).
+--------------------------------------------------------
+8) gradient descent: positive gradient points uphill, negative gradient points downhill and f can be decreased by moving in the direction of negative gradient.
+
+x' = x - \epsiopnD<sub>x</sub>f(x)
