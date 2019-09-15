@@ -20,3 +20,11 @@ Condition Number - ratio of the magintude of the largest and smallest eigenvalue
 <p align="center">
 x' = x - &epsilon;D<sub>x</sub>f(x)
 </p>
+
+9) Jacobian: matrix containing all partial first order derivatives of f.
+10) Hessian: matrix containing all partial second order derivatives of f or partial first order derivatives of gradients.
+
+Note: if second order derivative is
+a) = 0 : no curvature, gradient 1, step size &epsilon; along the negative gradient, cost function decrease by &epsilon;.
+b) < 0 : function curve downward, cost function decrease by more than &epsilon;.
+c) > 0 : function curve upward, cost function decrease by less than &epsilon;.
